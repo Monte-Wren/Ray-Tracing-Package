@@ -10,7 +10,4 @@ Run the RayTracer_investigations.py script for the plano-convex lens and optimiz
 
 If you create a new python script and wish to play around, make sure to "import RayTracer as rt".
 
-
-
-P.S. Apologies for the late submission, hope the code's alright. 
  
