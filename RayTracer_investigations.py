@@ -61,7 +61,7 @@ def find_optimum_lens(focus, z0 = 20, lens_seperation = 5, n1 = 1, n2 = 1.5, ape
         
         return output_plane.bundle_rms(bundle1)
     
-    opt_curv = opt_curv = fmin_tnc(rms_curvature, x0 = initial_guess, approx_grad = True)
+    opt_curv = fmin_tnc(rms_curvature, x0 = initial_guess, approx_grad = True)
     
     return opt_curv[0]
 
